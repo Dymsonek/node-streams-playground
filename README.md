@@ -30,6 +30,8 @@ Start with one folder per concept. Keep executables minimal, reuse helpers via `
 
 - `00-compression` — CLI comparing Brotli, Gzip, and Deflate.
 - `01-stream-basics` — Minimal read → transform (uppercase) → write using `pipeline()`.
+- `02-backpressure` — Simulates a slow sink to show backpressure.
+- `03-transform-streams` — Custom Transform that numbers lines.
 
 ## Running 00-compression
 

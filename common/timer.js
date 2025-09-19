@@ -8,3 +8,4 @@ function withTimer(fn) {
 }
 
 module.exports = { withTimer };
+

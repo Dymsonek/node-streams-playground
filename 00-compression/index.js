@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
-const { withTimer } = require('./utils/timer');
+const { withTimer } = require('../common/timer');
 const brotliCompress = require('./compressors/brotli');
 const gzipCompress = require('./compressors/gzip');
 const deflateCompress = require('./compressors/deflate');
