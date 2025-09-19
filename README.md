@@ -33,6 +33,7 @@ Start with one folder per concept. Keep executables minimal, reuse helpers via `
 - `02-backpressure` — Simulates a slow sink to show backpressure.
 - `03-transform-streams` — Custom Transform that numbers lines.
 - `04-pipeline-compose` — Multi-stage pipeline with basic error handling.
+- `05-multiplexing` — Mux/demux two streams into one and back.
 
 ## Running 00-compression
 
