@@ -27,8 +27,11 @@ cd node-compression-efficiency
 ## 📥 Usage
 
 ```bash
-node index.js ./sample.txt
+node index.js <path_to_file> [--out-dir DIR] [--keep]
 ```
+
+- `--out-dir DIR`: write compressed files to `DIR` (default: system temp)
+- `--keep`: do not delete the compressed outputs after measuring
 
 ### Example output:
 
@@ -51,7 +54,7 @@ node index.js ./sample.txt
 │   ├── brotli.js
 │   ├── gzip.js
 │   └── deflate.js
-├── utils/
+├── ../common/
 │   └── timer.js
 └── README.md
 ```
@@ -76,4 +79,3 @@ head -c 1M </dev/urandom | base64 > random.txt
 - [Node.js Design Patterns](https://www.oreilly.com/library/view/nodejs-design-patterns/9781839214110/)
 - [Node.js `zlib` Docs](https://nodejs.org/api/zlib.html)
 - [Node.js Streams](https://nodejs.org/api/stream.html)
-
