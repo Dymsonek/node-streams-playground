@@ -28,7 +28,8 @@ Start with one folder per concept. Keep executables minimal, reuse helpers via `
 
 ## Current Modules
 
-- `00-compression` — CLI comparing Brotli, Gzip, and Deflate. See its README for details.
+- `00-compression` — CLI comparing Brotli, Gzip, and Deflate.
+- `01-stream-basics` — Minimal read → transform (uppercase) → write using `pipeline()`.
 
 ## Running 00-compression
 
