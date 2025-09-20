@@ -34,6 +34,8 @@ Start with one folder per concept. Keep executables minimal, reuse helpers via `
 - `03-transform-streams` — Custom Transform that numbers lines.
 - `04-pipeline-compose` — Multi-stage pipeline with basic error handling.
 - `05-multiplexing` — Mux/demux two streams into one and back.
+- `06-parallel-processing` — Worker threads hashing chunks in parallel.
+- `07-file-io-streams` — File streaming, chunking stats, and SHA‑256.
 
 ## Running 00-compression
 
@@ -46,6 +48,6 @@ node index.js ./sample.txt
 
 ## Next Steps
 
-- Add `01-stream-basics` with minimal read→transform→write examples
-- Extract `00-compression/utils/timer.js` into `common/timer.js` once a second module needs it
-- Add tiny fixtures under each module (or `common/fixtures/` if reused)
+- Add `Duplex` examples and `PassThrough` tees
+- Explore `stream/web` compatibility and adapters
+- Add tiny fixtures where useful and reuse `common/fixtures/`
