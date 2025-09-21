@@ -1,0 +1,19 @@
+{
+  "name": "node-streams-playground",
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "run:00": "node 00-compression/index.js 00-compression/sample.txt",
+    "run:01": "node 01-stream-basics/index.js 01-stream-basics/sample.txt",
+    "run:02": "node 02-backpressure/index.js",
+    "run:03": "node 03-transform-streams/index.js 03-transform-streams/sample.txt",
+    "run:04": "node 04-pipeline-compose/index.js",
+    "run:05": "node 05-multiplexing/index.js",
+    "run:06": "node 06-parallel-processing/index.js",
+    "run:07": "node 07-file-io-streams/index.js"
+  }
+}
+
